@@ -1,0 +1,63 @@
+.player {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 12px 3px;
+  }
+  
+  .player-sound {
+    border: 1px solid #e00f1a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-indent: 20px;
+  }
+  
+  div.player:nth-of-type(1) .player-sound {
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  }
+  div.player:nth-of-type(2) .player-sound {
+    background: linear-gradient(45deg, #ff8de3 30%, #973341 90%);
+  }
+  div.player:nth-of-type(3) .player-sound {
+    background: linear-gradient(45deg, #91ff8d 30%, #e00f1a 90%);
+  }
+  div.player:nth-of-type(4) .player-sound {
+    background: linear-gradient(45deg, #a5db46 30%, #fff47d 90%);
+  }
+  div.player:nth-of-type(5) .player-sound {
+    background: linear-gradient(45deg, #8ff8a6 30%, #206264 90%);
+  }
+  div.player:nth-of-type(6) .player-sound {
+    background: linear-gradient(45deg, #8da8ff 30%, #61308a 90%);
+  }
+  div.player:nth-of-type(8) .player-sound {
+    background: linear-gradient(45deg, #faecbf 30%, #3409aa 90%);
+  }
+  div.player:nth-of-type(7) .player-sound {
+    background: linear-gradient(45deg, #8dffe6 30%, #2c7191 90%);
+  }
+  div.player:nth-of-type(8) .player-sound {
+    background: linear-gradient(45deg, #faecbf 30%, #3409aa 90%);
+  }
+  div.player:nth-of-type(9) .player-sound {
+    background: linear-gradient(45deg, #fbdffd 30%, #b36ce2 90%);
+  }
+  
+  .player-mute-active {
+    color: #a75e5e;
+  }
+
+  .player-mute {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  

@@ -1,0 +1,34 @@
+.home-controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .player-button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 100%;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px -7px #868686;
+    cursor: pointer;
+  }
+  
+  .player-button:hover {
+    background-color: #ececec;
+  }
+  
+  .player-button:active {
+    box-shadow: inset 0px 5px 14px -7px #868686;
+  }
+  
+  .player-button_active {
+    color: #ecbf49;
+    box-shadow: inset 0px 5px 14px -7px #868686;
+  }
+  
