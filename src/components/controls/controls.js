@@ -8,20 +8,20 @@ export function Controls({handlePlayClick,handleLoopClick ,handleStopClick, isLo
   return (
     <div className="home-controls">
       <button className="player-button" onClick={handlePlayClick}>
-        <PlayCircleIcon size={20} />
+        <PlayCircleIcon className="icon" size={50} />
       </button>
       <button className="player-button" onClick={handleStopClick}>
-        <StopCircleIcon size={20} />
+        <StopCircleIcon className="icon" size={50} />
       </button>
       <button
         className={
           isLooping
-            ? "player-button player-button_active"
+            ? "player-button player-button-active"
             : "player-button"
         }
         onClick={handleLoopClick}
       >
-        <ReplayCircleFilledSharpIcon size={20} />
+        <ReplayCircleFilledSharpIcon className="icon" size={50} />
       </button>
     </div>
   );

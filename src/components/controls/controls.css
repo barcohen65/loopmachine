@@ -8,15 +8,14 @@
     display: flex;
     width: 50px;
     height: 50px;
-    background-color: transparent;
-    color: #000000;
     border-radius: 100%;
     border-style: none;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    box-shadow: 0px 0px 14px -7px #868686;
     cursor: pointer;
+    padding: 0;
+    margin: 0;
   }
   
   .player-button:hover {
@@ -27,8 +26,12 @@
     box-shadow: inset 0px 5px 14px -7px #868686;
   }
   
-  .player-button_active {
+  .player-button-active {
     color: #ecbf49;
     box-shadow: inset 0px 5px 14px -7px #868686;
   }
   
+  .icon {
+    height: 50px !important;
+    width: 50px !important;
+  }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./home.css";
-import { playerArray } from "../../utilities/objects";
+import { playerArray } from "../../utilities/playersArray";
 import { TracksList } from "../../components/tracksList/tracksList";
 import { Controls } from "../../components/controls/controls";
 
