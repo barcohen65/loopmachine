@@ -18,7 +18,7 @@ export function Home() {
       return null;
     }
     setIsPlaying(true);
-    playerArray.map((player) => {
+    playerArray.forEach((player) => {
       player.play();
     });
   };
