@@ -26,5 +26,5 @@ It took me about 3 days to finish.
 In order to develop the app, I studied a lot of different subjects for the first time. I faced many obstacles through the development, requiring me to investigate and search for the right solution for me. 
 I really enjoyed working on the assignment. It opened me to the web world which I was not familiar with until some time ago. Overall,  I'm satisfied with the result.
 
-Project source code- https://github.com/barcohen65/loopmachine
-Deployment app website- https://loopmachine-bar-cohen.netlify.app/
+<!-- Project source code- https://github.com/barcohen65/loopmachine
+Deployment app website- https://loopmachine-bar-cohen.netlify.app/ -->
