@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Bar Cohen
+Junior Full-Stack Web Developer - Moveo
+Loop Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technical Details
+This loop machine application was developed as a React JS app. 
+I used javaScript and CSS Languages.
+The players in the list are built based on the playerArray passed to it, making it available for changes and easy to add or delete players. 
+The player.js was built with javaScript class and used to manipulate user interaction based on HTMLAudioElements.
+The range input slider moves as a reaction to the player’s currentTime.
 
-## Available Scripts
+Application Details
+Because of time constraints I could not finish the bonus task, I preferred to fully complete all the mandatory tasks.
+In the app, there are nine players that the user can interact with.
+Each player represents different audio.
+Above the players we have three buttons: 
+Play- plays the audio.
+Stop- stops the audio and returns the slider to the beginning.
+Loop- toggles the loop option.
+The vertical slider points to the current playing position.
+The user has an option to mute\unmute each player.
 
-In the project directory, you can run:
+Summary
+The assignment was very challenging. 
+It took me about 3 days to finish.
+In order to develop the app, I studied a lot of different subjects for the first time. I faced many obstacles through the development, requiring me to investigate and search for the right solution for me. 
+I really enjoyed working on the assignment. It opened me to the web world which I was not familiar with until some time ago. Overall,  I'm satisfied with the result.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project source code- https://github.com/barcohen65/loopmachine
+Deployment app website- https://loopmachine-bar-cohen.netlify.app/
